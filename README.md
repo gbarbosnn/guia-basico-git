@@ -73,7 +73,7 @@ venv/
 .env
 ```
 
-## 4. Realizando um Commit
+### 3.5 Realizando um Commit
 
 Após realizar alterações no repositório e verificar o status, você pode adicionar arquivos ao estágio e realizar commits com os seguintes comandos:
 
@@ -82,11 +82,11 @@ git add <arquivo>
 git commit -m "Mensagem do commit"
 ```
 
-### 4.1 Comandos de Push e Pull
+### 3.6 Comandos de Push e Pull
 
 Após realizar commits locais, você pode sincronizar seu repositório local com o repositório remoto.
 
-#### 4.1.1 Enviando Alterações para o Repositório Remoto (Push)
+#### 3.6.1 Enviando Alterações para o Repositório Remoto (Push)
 
 Para enviar suas alterações locais para um repositório remoto (por exemplo, no GitHub), você pode utilizar o seguinte comando:
 
@@ -94,7 +94,7 @@ Para enviar suas alterações locais para um repositório remoto (por exemplo, n
 git push origin <nome-da-branch>
 ```
 
-#### 4.1.2 Buscando Alterações do Repositório Remoto (Pull)
+#### 3.6.2 Buscando Alterações do Repositório Remoto (Pull)
 
 Para trazer as alterações mais recentes do repositório remoto para o seu repositório local, você pode utilizar o seguinte comando:
 
